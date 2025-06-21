@@ -8,10 +8,7 @@ import (
 )
 
 func main() {
-	cfg, err := config.NewConfig()
-	if err != nil {
-		log.Fatalf("failed to load config: %v", err)
-	}
+	cfg := config.NewConfig()
 
 	if err := app.Run(cfg); err != nil {
 		log.Fatalf("failed to run app: %v", err)
