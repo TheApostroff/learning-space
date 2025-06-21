@@ -34,7 +34,7 @@ func Run(cfg *config.Config) error {
 
 	}
 
-	router.Run(fmt.Sprintf("127.0.0.1:%s", cfg.Port))
+	router.Run(fmt.Sprintf("%s:%s", cfg.Host, cfg.Port))
 
 	db.AutoMigrate(&models.User{})
 	return nil

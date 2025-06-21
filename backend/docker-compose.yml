@@ -13,6 +13,22 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
 
+  skillspace:
+    container_name: skillspace
+    build:
+      context: .
+      dockerfile: Dockerfile.yaml
+    environment:
+      # GIN_MODE: release
+      DB_HOST: postgres
+      HOST: 0.0.0.0
+    depends_on:
+    - postgres
+    ports:
+    - "8080:8080"
+
+
+
 volumes:
   db_data:
     driver: local
