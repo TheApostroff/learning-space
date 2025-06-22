@@ -1,0 +1,6 @@
+{
+  "question": "How do you perform a binary search on a sorted array?",
+  "correct_answer": "Binary search divides the search interval in half, repeatedly comparing the middle element to the target.",
+  "difficulty": "Hard",
+  "category": "Data Structures"
+}

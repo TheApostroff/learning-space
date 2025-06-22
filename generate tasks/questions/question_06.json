@@ -1,0 +1,6 @@
+{
+  "question": "What is a virtual function in C++?",
+  "correct_answer": "Virtual functions in C++ allow derived classes to override them, enabling runtime polymorphism and dynamic method dispatch.",
+  "difficulty": "Medium",
+  "category": "Languages and Frameworks"
+}

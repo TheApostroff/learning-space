@@ -1,0 +1,6 @@
+{
+  "question": "Explain the differences between SQL and NoSQL databases.",
+  "correct_answer": "SQL databases use structured query language with a predefined schema; NoSQL databases store schema-less data with flexible models.",
+  "difficulty": "Medium",
+  "category": "Database and SQL"
+}

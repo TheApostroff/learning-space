@@ -1,0 +1,6 @@
+{
+  "question": "Explain the time complexity of an algorithm.",
+  "correct_answer": "Time complexity measures the time an algorithm takes relative to its input size, expressed in Big O notation.",
+  "difficulty": "Hard",
+  "category": "Data Structures"
+}

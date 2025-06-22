@@ -1,0 +1,6 @@
+{
+  "question": "Explain how a hash table works.",
+  "correct_answer": "A hash table uses a hash function to map keys to values in an array, allowing fast O(1) access.",
+  "difficulty": "Medium",
+  "category": "Data Structures"
+}

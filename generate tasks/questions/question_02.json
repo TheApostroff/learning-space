@@ -1,0 +1,6 @@
+{
+  "question": "Describe the difference between a binary search tree and a hash table.",
+  "correct_answer": "A binary search tree is hierarchical, maintaining order; a hash table maps keys to values for fast retrieval, without maintaining order.",
+  "difficulty": "Medium",
+  "category": "Data Structures"
+}

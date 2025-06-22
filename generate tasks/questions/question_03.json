@@ -1,0 +1,6 @@
+{
+  "question": "What is Big O notation, and why is it important?",
+  "correct_answer": "Big O notation describes the upper bound of algorithm time complexity, important for comparing efficiency and growth rates.",
+  "difficulty": "Medium",
+  "category": "Data Structures"
+}
